@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>GUARDAR VEHICULO</h1>
+
+    <form id="guardar">
+        <input type="text" id="marca" placeholder="Marca" autocomplete="off"><br>
+        <input type="text" id="modelo" placeholder="Modelo" autocomplete="off"><br>
+        <input type="text" id="precioAlquiler" placeholder="Precio" autocomplete="off"><br>
+
+        <button type="submit">GUARDAR</button>
+    </form>
+
+    <h2>BUSCAR VEHICULO</h2>
+    <p>Puedes buscar introduciendo solo la marca, introduciendo solo el modelo o introduciendo ambos</p>
+
+    <form id="buscar">
+        <input type="text" id="busMarca" placeholder="Marca" autocomplete="off"><br>
+        <input type="text" id="busModelo" placeholder="Modelo" autocomplete="off"><br>
+        <button type="submit">BUSCAR</button>
+    </form>
+
+    <div id="busqueda"></div>
+
+    <h2>CALCULAR IMPORTE</h2>
+
+    <p>Introduce el modelo del vehículo</p>
+
+    <form id="calcular">
+        <input type="text" id="vehiculo" placeholder="Vehiculo" autocomplete="off"><br>
+        <input type="text" id="dias" placeholder="Días" autocomplete="off"><br>
+        <button type="submit">CALCULAR</button>
+    </form>
+
+    <div id="calculo"></div>
+
+
+    <script src="guardar.js"></script>
+    
+</body>
+</html>
